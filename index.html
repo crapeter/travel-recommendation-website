@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Recommendations</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="links">
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About Us</a>
+        <a href="./contact.html">Contact Us</a>
+      </div>
+      <div class="search_area">
+        <div class="search">
+          <input
+            type="text"
+            id="searchInput"
+            placeholder="Enter a destination or keyword"
+          />
+          <button id="searchButton">Search</button>
+        </div>
+        <div class="reset">
+          <button id="resetButton">Reset</button>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="content"
+      style="padding: 100px; display: flex; gap: 50px; flex-direction: row"
+    >
+      <div>
+        <h1>Explore<br />Dream<br />Destination</h1>
+        <p
+          style="color: white; text-align: left; width: 500px; font-size: 24px"
+        >
+          It encourages exploration of unfamiliar territories, embracing diverse
+          cultures and landscapes, while pursuiing the desired destination that
+          captivates the heart and ignites a sense of wonder.
+        </p>
+      </div>
+      <div id="recommendations-container"></div>
+    </div>
+
+    <div class="social-media">
+      <button class="social-icon" onclick="alert('Twitter Clicked')">TW</button>
+      <button class="social-icon" onclick="alert('Facebook Clicked')">
+        FB
+      </button>
+      <button class="social-icon" onclick="alert('Instagram Clicked')">
+        IG
+      </button>
+      <button class="social-icon" onclick="alert('YouTube Clicked')">YT</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
