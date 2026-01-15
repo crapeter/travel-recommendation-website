@@ -33,30 +33,6 @@ resetButton.addEventListener("click", () => {
   container.innerHTML = "";
 });
 
-fetch("./travel_recommendation_api.json")
-  .then((response) => response.json())
-  .then((data) => {
-    console.log("Countries:");
-    data.countries.forEach((country) => {
-      console.log(country.name);
-
-      country.cities.forEach((city) => {
-        console.log("  - " + city.name);
-      });
-    });
-
-    console.log("\nTemples:");
-    data.temples.forEach((temple) => {
-      console.log(temple.name);
-    });
-
-    console.log("\nBeaches:");
-    data.beaches.forEach((beach) => {
-      console.log(beach.name);
-    });
-  })
-  .catch((error) => console.error("Error:", error));
-
 // For each of these three keywords, your results should display at least two recommendations, an image, and a description.
 function beachRecommendations() {
   fetch("./travel_recommendation_api.json")
@@ -145,7 +121,6 @@ function displayRecommendations(recommendations, type) {
   recommendations.forEach((item) => {
     const card = document.createElement("div");
     card.className = "recommendation-card";
-    console.log(item);
 
     card.innerHTML = `
       <img src="${item.imageUrl}" alt="${item.name}" class="recommendation-image">
