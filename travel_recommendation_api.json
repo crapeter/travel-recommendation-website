@@ -6,12 +6,12 @@
       "cities": [
         {
           "name": "Sydney, Australia",
-          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/photos/Sydney.jpg",
+          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/Sydney.jpg",
           "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
         },
         {
           "name": "Melbourne, Australia",
-          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/photos/Melbourne.webp",
+          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/Melbourne.webp",
           "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
         }
       ]
@@ -23,12 +23,12 @@
       "cities": [
         {
           "name": "Tokyo, Japan",
-          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/photos/Tokyo.webp",
+          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/Tokyo.webp",
           "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
         },
         {
           "name": "Kyoto, Japan",
-          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/photos/Kyoto.webp",
+          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/Kyoto.webp",
           "description": "Known for its historic temples, gardens, and traditional tea houses."
         }
       ]
@@ -40,12 +40,12 @@
       "cities": [
         {
           "name": "Rio de Janeiro, Brazil",
-          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/photos/Rio.jpg",
+          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/Rio.jpg",
           "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
         },
         {
           "name": "São Paulo, Brazil",
-          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/photos/sao_paulo.jpg",
+          "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/sao_paulo.jpg",
           "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
         }
       ]
@@ -56,14 +56,14 @@
     {
       "id": 1,
       "name": "Angkor Wat, Cambodia",
-      "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/photos/angkor_wat.jpg",
+      "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/angkor_wat.jpg",
       "description": "A UNESCO World Heritage site and the largest religious monument in the world."
     },
 
     {
       "id": 2,
       "name": "Taj Mahal, India",
-      "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/photos/taj_mahal.webp",
+      "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/taj_mahal.webp",
       "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
     }
   ],
@@ -72,14 +72,14 @@
     {
       "id": 1,
       "name": "Bora Bora, French Polynesia",
-      "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/photos/bora_bora.webp",
+      "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/bora_bora.webp",
       "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
     },
 
     {
       "id": 2,
       "name": "Copacabana Beach, Brazil",
-      "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/photos/copacabana.jpg",
+      "imageUrl": "https://crapeter.github.io/travel-recommendation-website/photos/copacabana.jpg",
       "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
     }
   ]
