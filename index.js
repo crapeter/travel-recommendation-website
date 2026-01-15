@@ -145,6 +145,7 @@ function displayRecommendations(recommendations, type) {
   recommendations.forEach((item) => {
     const card = document.createElement("div");
     card.className = "recommendation-card";
+    console.log(item);
 
     card.innerHTML = `
       <img src="${item.imageUrl}" alt="${item.name}" class="recommendation-image">
